@@ -1,13 +1,16 @@
 var app = angular.module('myApp', []);
 
 app.directive('ngInfiniteScroll', [function(){
+
   return {
+
 	  restrict: 'A',
 	  scope: {
 		callback: '&',
 		offset: '='
 	  },
 	  link: function (scope, element, attrs) {
+        
         var element = element[0];
         var lock = false;
         
