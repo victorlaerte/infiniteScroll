@@ -1,2 +1,2 @@
 # infiniteScroll
-angular directive for infinite ccroll with offeset.
+angular directive for infinite scroll with offeset.
