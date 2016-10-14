@@ -1,5 +1,5 @@
 # infiniteScroll
-angular directive for infinite scroll with offeset.
+angular directive to infinite scroll with offset.
 
 usage:
 ```
